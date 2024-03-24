@@ -1,0 +1,134 @@
+
+@charset "UTF-8";
+
+/* FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
+
+/* GERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO*/
+
+header{
+    
+    height:  150px;
+    display: flex;
+    align-items: center;
+    background-color:#696969 ;
+  
+   
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+header nav div{
+    display: flex;
+    margin-right: 30px;
+}
+
+header nav a{
+    color:#696969;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #DCDCDC;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+header nav :hover{
+    background-color :#696969;
+    
+}
+
+header nav a:hover{
+    
+    border: 1px solid white;
+    color:white;
+    transition:  0.2s;
+
+}
+.logo{
+    color: #DCDCDC;
+    margin-left: 30px;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 40px;
+    
+    
+}
+
+/* Conteúdo principal,  primeira seção*/
+
+.jobs_search{
+height: 180px;
+background-color: #DCDCDC;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.jobs_search form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.jobs_search label{
+    font-size: 26px;
+    color: #4e4c4c;
+    margin: 10px;
+}
+
+.jobs_search #isearch{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+   width: 450px;
+
+}
+
+button{
+    display: flex;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+    margin-top: 50px;
+    background-color: white;
+    
+
+}
+
+
+button:hover{
+    background-color: #6969697d;
+    transition:  0.2s;
+
+}
+.jobs{
+    background:  url(/imgs/img_fundo/fundo_sec01.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+
+.jobs_transparent{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.350);
+    height: 600px;
+}
+
+
+
